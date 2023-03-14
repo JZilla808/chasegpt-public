@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  /* create class for infoText at component layer*/
+  .infoText {
+    @apply p-4 bg-gray-700/50 rounded-lg max-w-[300px];
+  }
+
+  /* create class for chatRow at component layer*/
+  .chatRow {
+    @apply flex items-center justify-center rounded-lg px-5 py-3 text-sm space-x-2 hover:bg-gray-700/70 cursor-pointer text-gray-300 transition-all duration-200 ease-out;
+  }
+}
