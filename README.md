@@ -1,27 +1,36 @@
-# Next.js + Tailwind CSS Example
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+# ChaseGPT
 
-## Deploy your own
+ChaseGPT is a modern and responsive UI for ChatGPT. It recreates ChatGPT's UI using new technologies such as React.js, Firebase, TypeScript, OpenAI API, Next.js, Tailwind, SWR, and libraries like React Select and Hot Toast Notifications. The project utilizes Nexus 13 folder structures, server, and client components. The project uses pnpm as a package manager.
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+## Technologies Used
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+- React.js (v18.2.0)
+- Firebase (v9.17.1)
+- TypeScript (v4.9.4)
+- OpenAI API (v3.2.1)
+- Next.js (v13.2.0)
+- Tailwind CSS (v3.2.4)
+- SWR (v2.1.0)
+- React Select (v5.7.0)
+- Hot Toast Notifications (v2.4.0)
 
-## How to use
+## Installation
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+To get started with this project, follow these steps:
+
+1. Clone the repository to your local machine.
+2. Navigate to the project directory.
+3. Install the dependencies using pnpm:
 
 ```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
+pnpm install
 ```
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+## Available Scripts
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
+In the project directory, you can run:
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+- `pnpm dev`: Runs the app in the development mode.
+- `pnpm build`: Builds the app for production.
+- `pnpm start`: Starts the production build.
